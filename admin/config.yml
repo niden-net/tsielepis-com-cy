@@ -17,7 +17,7 @@ collections:
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Tags', name: 'tags', widget: 'list'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-  - name: 'pages-ru'
+  - name: 'pages-en'
     label: 'Pages (English)'
     folder: '_en'
     create: true
@@ -37,12 +37,3 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string'}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-  - label: "Slider"
-    name: "slider"
-    files:
-      - label: "Index Slider"
-        name: "about"
-        file: "_data/slider.yml"
-        fields:
-          - {label: File, name: file, widget: string}
-          - {label: Quote, name: quote, widget: string}

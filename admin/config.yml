@@ -51,3 +51,42 @@ collections:
               - {label: "Background", name: "background", widget: "text", required: false}
               - {label: "Skills", name: "skills", widget: "text", required: false}
               - {label: "Responsibilities", name: "responsibilities", widget: "text", required: false}
+      - name: "library"
+        label: "e-library"
+        file: "_data/library.yml"
+        extension: "yml"
+        fields:
+          - label: "Issues"
+            name: "issue"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Language"
+                name: "language"
+                widget: "select"
+                options:
+                  - label: "English"
+                    value: "en"
+                  - label: "Russian"
+                    value: "ru"
+              - label: "Types"
+                name: "types"
+                widget: "select"
+                multiple: true
+                options:
+                  - label: "Tax Updates"
+                    value: "tax-update"
+                  - label: "Tax Alerts"
+                    value: "tax-alert"
+                  - label: "Articles"
+                    value: "article"
+                  - label: "Information Sheets"
+                    value: "sheet"
+              - label: "Date"
+                name: "date"
+                widget: "date"
+              - label: "File"
+                name: "file"
+                widget: "file"

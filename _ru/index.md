@@ -4,12 +4,10 @@ title: index
 language: ru
 permalink: /
 ---
-We warmly welcome you to Costas Tsielepis & Co Ltd, offering Tax Advisory, Business Consultancy and Audit & Assurance services.
+Мы тепло приветствуем Вас от имени организации Costas Tsielepis & Co Ltd, предлагающей услуги налогового планирования и консультирования по коммерческим вопросам, а также услуги аудита и предоставление заключений в отношении финансовой информации.
 
-Costas Tsielepis & Co was originally established back in 1978 and is now widely acknowledged as one of the leading audit and tax advisory firms in Cyprus.
+Costas Tsielepis & Co была основана в 1978 году и на сегодняшний день широко известна в качестве одной из ведущих фирм на Кипре по предоставлению аудиторских услуг и налогового планирования.
 
-What makes Costas Tsielepis & Co different is the boutique approach to the way it interacts with its clients and the way it tailors its services to their unique needs and requirements. We understand the importance of deadlines, of personalised and proactive communication, of trust and confidentiality and of providing solutions that safeguard the integrity and best interests of our clients' business enterprises.
+Особенностью компании Costas Tsielepis & Co Ltd является схожесть с обслуживанием в бутике во взаимоотношениях с клиентами, а также умение адаптировать наши услуги к уникальным потребностям и требованиям наших клиентов. Мы понимаем всю важность соблюдения сроков, индивидуального и инициативного общения, доверия и конфиденциальности, а также способности принятия решений, которые гарантируют целостность и сохранность интересов бизнеса наших клиентов.
 
-We have been consistently and diligently serving local and international clients based on this approach, for over 35 years.
-
-We look forward to addressing your business needs and to welcoming you to our organisation.
+На протяжении 35 лет мы последовательно и усердно служим местным и международным клиентам, основываясь на принципах, описанных выше.

@@ -1,0 +1,35 @@
+menu-items:
+  - language: en
+    permalink: /
+    title: Home
+  - language: en
+    permalink: /about-us/our-company
+    sub-menu-items:
+      - language: en
+        permalink: /about-us/our-company
+        title: Our Company
+      - language: en
+        permalink: /about-us/our-people
+        title: Our People
+      - language: en
+        permalink: /about-us/one-team
+        title: One Team
+    title: About Us
+  - language: en
+    permalink: /services
+    title: Services
+  - language: en
+    permalink: /industries
+    title: Industries
+  - language: en
+    permalink: /news
+    title: News
+  - language: en
+    permalink: /e-library
+    title: E-Library
+  - language: en
+    permalink: /careers
+    title: Careers
+  - language: en
+    permalink: /contact-us
+    title: Contact Us

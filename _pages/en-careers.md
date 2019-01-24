@@ -1,7 +1,6 @@
 ---
 layout: page
 language: en
-name: Careers
 permalink: /en/careers
 ---
 <p>We are always on the lookout for talented professionals to join our team. We strive to invest in human capital and we strongly believe that our people are our greatest asset.</p>

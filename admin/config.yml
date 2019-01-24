@@ -28,7 +28,6 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}
-      - {label: 'Title', name: 'name', widget: 'string'}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: "settings"

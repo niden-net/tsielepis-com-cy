@@ -1,7 +1,6 @@
 ---
 layout: page
 language: en
-name: Industries
 permalink: /en/industries
 ---
 In an era of constant, fast flowing change and of continuous advances in knowledge and technology, a thorough and hands-on understanding of a specific industry is essential for any successful engagement.

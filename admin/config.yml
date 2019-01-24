@@ -24,7 +24,7 @@ collections:
     folder: '_pages'
     create: true
     slug: '{{slug}}'
-    identity_field: 'name'
+    identity_field: 'permalink'
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}

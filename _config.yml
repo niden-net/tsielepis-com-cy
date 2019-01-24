@@ -1,0 +1,48 @@
+name: 'Costas Tsielepis &amp; Co'
+author: 'Nikolaos Dimopoulos'
+description: 'Costas Tsielepis &amp; Co | Chartered Accountants'
+keywords: 'costas tsielepis, tsielepis accountants, cyprus accountants, limassol accountants, tax advisory, business consultancy, audit services, Cyprus auditors, Cyprus tax, Cyprus audit, direct tax, international tax planning, tax rulings, cross border transactions, Chartered Certified Accountants, compliance, Cyprus shipping, Cyprus banking, Cyprus property, immovable property tax'
+
+social:
+  email:
+  facebook:
+  rss: tsielepis
+  twitter:
+
+google_analytics: ''
+
+paginate: 5
+paginate_path: '/page-:num'
+permalink: /:title/
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: [ 'all' ]
+  layout: archive
+  permalinks:
+    year: '/archive/:year/'
+    month: '/archive/:year/:month/'
+    day: '/archive/:year/:month/:day/'
+    tag: '/archive/tag/:name/'
+    category: '/archive/category/:name/'
+
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor

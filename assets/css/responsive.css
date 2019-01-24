@@ -1,0 +1,269 @@
+/* Global Styles (portrait) ----------- */
+body {
+	-webkit-text-size-adjust: none;
+}
+input, button, textarea {
+	-webkit-appearance:none;
+}
+#toggle-menu {
+	cursor: pointer;
+	display: none;
+	float:left;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 48px;
+	padding: 0 0 0 0;
+	position: relative;
+	text-transform: uppercase;
+}
+#navigation .mobileNav {
+	background: none repeat scroll 0 0 #FFFFFF;
+	display: none;
+	position: absolute;
+	top: 58px;
+	width: 180px;
+	z-index: 999;
+}
+#navigation .mobileNav li {
+	display: block;
+	float: none;
+	padding: 0;
+}
+#navigation .mobileNav li a {
+	line-height: 36px;
+	padding: 0 20px;
+}
+#navigation .mobileNav li ul {
+	background: none repeat scroll 0 0 #eee;
+	border-bottom:none;
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+#navigation .mobileNav li ul li a {
+	line-height: 1em;
+	padding: 9px 20px 9px 30px;
+}
+@media only screen and (max-width : 1250px) {
+	.peopleBxCol .title {
+  font-size: 15px;
+}
+ #footerWidgetArea {
+padding:20px
+}
+ #footerSocialWidget {
+ float: none;
+ padding-bottom: 10px;
+ text-align: center;
+}
+#footerWidgets {
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+#footerWidgets .widget-container {
+ padding: 10px 15px;
+}
+#copyrightIn {
+  float: none;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+}
+}
+@media only screen and (max-width : 1020px) {
+	.peopleTitleBx{text-align:center}
+	.peoplevCard{float:none; margin:auto}
+	.peopleBxCol .title {
+  padding: 10px 0 0;
+}
+ #footerWidgets .widget-container {
+ text-align: center;
+}
+ #footerWidgets .widget-container.contactWidget {
+ display: block;
+ text-align: center;
+}
+}
+@media only screen and (max-width : 960px) {
+ .wrapper {
+padding-left:12%
+}
+ .splashContent {
+left:35%
+}
+}
+ @media only screen and (max-width : 900px) {
+ #container {
+ float: none;
+ width: 100%;
+}
+#sidebar {
+float:none;
+width:100%
+}
+#sidebar .widget-container {
+ padding: 15px 25px;
+}
+}
+@media only screen and (max-width : 860px) {
+	.careerCols .col {
+  margin-right: 0;
+  width: 100%;
+}
+.careerCols .col .greyBx{margin-bottom:25px}
+}
+@media only screen and (max-width : 800px) {
+.blogItemDate { display:none}
+.blogItemBx {
+  float: none;
+  width: 100%;
+}
+#pageNavigation{padding-left:0}
+}
+@media only screen and (max-width : 780px) {
+	.title.padBxTitle {
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+.peopleBxCol.col {
+  margin: 0 2% 40px;
+  width: 46%;
+}
+}
+@media only screen and (max-width : 740px) {
+	.blogItemDate:before {
+  width: 15px;
+}
+.blogItemDate {
+  padding-left: 25px;
+}
+}
+@media only screen and (max-width : 700px) {
+ .splashContent {
+ bottom: 15px;
+ left: 15%;
+}
+.cols2 .col {
+  float: none;
+  margin-bottom: 25px;
+  margin-right: 0;
+  width: 100%;
+}
+.elibraryCol.col{margin-left:2%; margin-right:2%; width:46%}
+#libraryTerms{text-align:center}
+#libraryTerms .col {
+  display: inline-block; vertical-align:top;
+  float: none;
+  margin: 0 2% 25px;
+  width: 46%;
+}
+.etermLink{word-spacing:inherit}
+}
+
+@media only screen and (max-width : 580px) {
+ .wrapper {
+ padding-left: 8%;
+}
+ #header {
+ height: 100%;
+ padding-top: 30px;
+}
+#logo {
+ float: none;
+ margin: auto;
+ text-align: center;
+ width: 362px;
+}
+ #logo .logo {
+ float: left;
+ margin-left: 0;
+}
+#headerRight {
+ border-right: medium none;
+ float: none;
+ height: auto;
+ margin-top: 0;
+ padding-right: 0;
+ padding-top: 15px;
+ text-align: center;
+}
+#navigation {
+ padding: 5px 0 0;
+ text-align: center;
+}
+#toggle-menu {
+float:none
+}
+#navigation .mobileNav {
+ left: 50%;
+ margin-left: -90px;
+ right: auto;
+ top: 52px; z-index:999
+}
+#container {
+padding:30px
+}
+.splashContent {
+display:none
+}
+ .padLeft:before {
+ width: 12px;
+}
+.padLeft {
+ padding-left: 18%;
+}
+.pageTitle{left:18%}
+#ajaxLoginForm{padding:25px; background:none}
+}
+
+@media only screen and (max-width : 520px) {
+.blogThumb {
+  float: none;
+  margin: 0 0 15px;
+}
+.postTitle {
+  padding-bottom: 10px;
+}
+.etermLink {
+  word-spacing: 100px;
+}
+}
+@media only screen and (max-width : 460px) {
+
+#libraryTerms .col {
+  vertical-align:top; display:block
+  float: none;
+  margin: 0 0 25px;
+  width: 100%;
+}
+}
+@media only screen and (max-width : 425px) {
+ #logo {
+width:auto
+}
+ #logo .logo {
+float:none;
+}
+ #logo .logoTxt {
+ float: none;
+ padding-left: 0;
+ padding-top: 20px;
+}
+#container {
+ padding: 20px;
+}
+	.peopleBxCol.col {
+  margin: 0 2% 40px;
+  width: 96%;
+}
+.pageTitle {
+  padding-left: 10px;
+}
+.buttonsList li {
+  margin-right: 6px;
+}
+.buttonsList li .button.hollow {
+  padding: 4px 8px;
+}
+}

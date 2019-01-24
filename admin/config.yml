@@ -1,0 +1,49 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: 'editorial_workflow'
+media_folder: 'assets/files'  # Media files will be stored in the repo under assets/files
+public_folder: '/files'       # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: 'post'
+    label: 'News'
+    folder: '_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Tags', name: 'tags', widget: 'list'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'pages-ru'
+    label: 'Pages (English)'
+    folder: '_en'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Permalink', name: 'permalink', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - name: 'pages-ru'
+    label: 'Pages (Russian)'
+    folder: '_ru'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
+      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Permalink', name: 'permalink', widget: 'string'}
+      - {label: 'Body', name: 'body', widget: 'markdown'}
+  - label: "Slider"
+    name: "slider"
+    files:
+      - label: "Index Slider"
+        name: "about"
+        file: "_data/slider.yml"
+        fields:
+          - {label: File, name: file, widget: string}
+          - {label: Quote, name: quote, widget: string}

@@ -37,14 +37,18 @@ collections:
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'ru'}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-  - name: 'team'
+  - name: 'our-team'
     label: 'Our Team'
-    file: '_data/team.yml'
-    fields:
-      - {label: 'Identifier', name: 'identifier', widget: 'string'}
-      - {label: 'Name', name: 'name', widget: 'string'}
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Qualifications', name: 'qualifications', widget: 'markdown'}
-      - {label: 'Background', name: 'background', widget: 'markdown'}
-      - {label: 'Skills', name: 'skills', widget: 'markdown'}
-      - {label: 'Responsibilities', name: 'responsibilities', widget: 'markdown'}
+    files:
+      - label: 'Team'
+        name: 'team'
+        file: '_data/team.yml'
+        widget: list
+        fields:
+          - {label: 'Identifier', name: 'identifier', widget: 'string'}
+          - {label: 'Name', name: 'name', widget: 'string'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'Qualifications', name: 'qualifications', widget: 'markdown'}
+          - {label: 'Background', name: 'background', widget: 'markdown'}
+          - {label: 'Skills', name: 'skills', widget: 'markdown'}
+          - {label: 'Responsibilities', name: 'responsibilities', widget: 'markdown'}

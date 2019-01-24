@@ -19,3 +19,29 @@ media:
     title: Cyprus - Luxemburg Sign Double Tax Treaty
     types:
       - sheet
+  - date: 2016-12-01T18:07:18.865Z
+    file: /assets/files/information-sheet-15-cyprus-india-double-tax-treaty-en.pdf
+    language: en
+    title: Cyprus - India Revise Their Double Tax Treaty
+    types:
+      - sheet
+  - date: 2016-01-01T18:08:23.687Z
+    file: /assets/files/information-sheet-14-cyprus-double-tax-treaties-en-3.pdf
+    language: en
+    title: Cyprus Double Tax Treaties
+    types:
+      - sheet
+  - date: 2016-01-01T18:09:25.726Z
+    file: >-
+      /assets/files/information-sheet-13-living-in-cyprus.-a-scrumptaxious-proposition-ru-1.pdf
+    language: ru
+    title: 'ЖИЗНЬ НА КИПРЕ: НАЛОГОВОЕ ПРЕДЛОЖЕНИЕ, ОТ КОТОРОГО СЛОЖНО ОТКАЗАТЬСЯ'
+    types:
+      - sheet
+  - date: 2016-01-01T18:11:12.571Z
+    file: >-
+      /assets/files/information-sheet-13-living-in-cyprus.-a-scrumptaxious-proposition-en-1.pdf
+    language: en
+    title: 'LIVING IN CYPRUS: A ScrumpTAXious PROPOSITION'
+    types:
+      - sheet

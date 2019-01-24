@@ -580,7 +580,7 @@ img.alignleft, img.alignright, img.aligncenter {
   margin-left: -55px;
 }
 #logo .logo a {
-  background: url("images/logo.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("../images/logo.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: block;
   height: 111px;
   text-indent: -9999px;
@@ -596,7 +596,7 @@ img.alignleft, img.alignright, img.aligncenter {
   padding:0
 }
 #logo .logoTxt a {
-  background: url("images/logotxt1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("../images/logotxt1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
   display: block;
   height: 28px;
   text-indent: -9999px;
@@ -612,7 +612,7 @@ img.alignleft, img.alignright, img.aligncenter {
   padding-top: 15px;
 }
 ul.language_chooser {
-  background: url("images/icon_globe.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+  background: url("../images/icon_globe.png") no-repeat scroll center top rgba(0, 0, 0, 0);
   line-height: 1em;
   list-style: none outside none;
   margin: 0;
@@ -708,7 +708,7 @@ ul.language_chooser li a.active {
 .splashSlider {
   position:relative;
   width:100%;
-  background:url(images/loading.gif) no-repeat center #f5f5f5
+  background:url(../images/loading.gif) no-repeat center #f5f5f5
 }
 .splashSlider img {
   display:block;
@@ -975,7 +975,7 @@ ul.language_chooser li a.active {
   padding-right: 50px;
 }
 .peoplevCard {
-  background: url("images/icon_vcard.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: url("../images/icon_vcard.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
   bottom: 10px;
   display: block;
   height: 35px;
@@ -1088,7 +1088,7 @@ ul.gform_fields li textarea {
   padding-bottom: 20px;
 }
 .etermLink {
-  background-image: url("images/termIcons/eterm-hover.png");
+  background-image: url("../images/termIcons/eterm-hover.png");
   background-position: center top;
   background-repeat: no-repeat;
   display: block;
@@ -1104,19 +1104,19 @@ ul.gform_fields li textarea {
   word-spacing: 50px;
 }
 #eterm-tax-updates.etermLink, .etermLink.inactive#eterm-tax-updates:hover {
-  background-image: url("images/termIcons/eterm-tax-updates.png");
+  background-image: url("../images/termIcons/eterm-tax-updates.png");
 }
 #eterm-articles.etermLink, .etermLink.inactive#eterm-articles:hover {
-  background-image: url("images/termIcons/eterm-articles.png");
+  background-image: url("../images/termIcons/eterm-articles.png");
 }
 #eterm-information-sheets.etermLink, .etermLink.inactive#eterm-information-sheets:hover {
-  background-image: url("images/termIcons/eterm-information-sheets.png");
+  background-image: url("../images/termIcons/eterm-information-sheets.png");
 }
 .etermLink.inactive {
-  background-image: url(images/termIcons/eterm-hover.png) !important;
+  background-image: url(../images/termIcons/eterm-hover.png) !important;
 }
 .etermLink:hover {
-  background-image: url(images/termIcons/eterm-hover.png) !important;
+  background-image: url(../images/termIcons/eterm-hover.png) !important;
 }
 .elibraryCol {
   margin-bottom: 20px;
@@ -1134,7 +1134,7 @@ ul.gform_fields li textarea {
 /*------------------[AJAX LOGIN]------------------*/
 /*------------------------------------------------*/
 #ajaxLoginForm {
-  background: url("images/icon_ajaxlogin.png") no-repeat scroll 4% 25px rgba(0, 0, 0, 0);
+  background: url("../images/icon_ajaxlogin.png") no-repeat scroll 4% 25px rgba(0, 0, 0, 0);
   max-width: 100%;
   padding: 25px 25px 25px 15%;
   width: 740px;
@@ -1193,7 +1193,7 @@ ul.socialLinks li a {
   width:28px;
   height:28px;
   text-indent:-9999px;
-  background-image:url(images/social_icons.png);
+  background-image:url(../images/social_icons.png);
 }
 ul.socialLinks li.twitter a {
   background-position:left top

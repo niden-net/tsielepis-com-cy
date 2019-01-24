@@ -3,7 +3,7 @@ backend:
   branch: master
 
 publish_mode: 'editorial_workflow'
-media_folder: '/files'
+media_folder: '/assets/files'
 
 collections:
   - name: 'post'
@@ -56,8 +56,8 @@ collections:
         file: "_data/library.yml"
         extension: "yml"
         fields:
-          - label: "Issues"
-            name: "issue"
+          - label: "Media"
+            name: "media"
             widget: "list"
             fields:
               - label: "Title"
@@ -90,3 +90,44 @@ collections:
               - label: "File"
                 name: "file"
                 widget: "file"
+      - name: "menu"
+        label: "menu"
+        file: "_data/menu.yml"
+        extension: "yml"
+        fields:
+          - label: "Menu"
+            name: "menu-items"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Language"
+                name: "language"
+                widget: "select"
+                options:
+                  - label: "English"
+                    value: "en"
+                  - label: "Russian"
+                    value: "ru"
+              - label: "Permalink"
+                name: "permalink"
+                widget: "string"
+              - label: "Sub Menu"
+                name: "sub-menu-items"
+                widget: "list"
+                fields:
+                  - label: "Title"
+                    name: "title"
+                    widget: "string"
+                  - label: "Language"
+                    name: "language"
+                    widget: "select"
+                    options:
+                      - label: "English"
+                        value: "en"
+                      - label: "Russian"
+                        value: "ru"
+                  - label: "Permalink"
+                    name: "permalink"
+                    widget: "string"

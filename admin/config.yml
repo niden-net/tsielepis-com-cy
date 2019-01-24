@@ -22,10 +22,10 @@ collections:
     folder: '_en'
     create: true
     slug: '{{slug}}'
+    identifier_field: permalink
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}
-      - {label: "Name", name: "name", widget: "string"}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
   - name: 'pages-ru'
@@ -33,10 +33,10 @@ collections:
     folder: '_ru'
     create: true
     slug: '{{slug}}'
+    identifier_field: permalink
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'ru'}
-      - {label: "Name", name: "name", widget: "string"}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'text'}
   - name: "settings"

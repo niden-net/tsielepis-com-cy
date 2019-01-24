@@ -2,7 +2,7 @@
 layout: page
 title: index
 language: ru
-permalink: /
+permalink: /en
 ---
 We warmly welcome you to Costas Tsielepis & Co Ltd, offering Tax Advisory, Business Consultancy and Audit & Assurance services.
 

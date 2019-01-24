@@ -42,7 +42,7 @@ collections:
     files:
       - name: "team"
         label: "Team"
-        file: "data/team.yml"
+        file: "_data/team.yml"
         extension: "yml"
         fields:
           - label: "Author"

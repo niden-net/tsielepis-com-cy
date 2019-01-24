@@ -8,6 +8,7 @@ media_folder: '/files'
 collections:
   - name: 'post'
     label: 'News'
+    description: 'Posts/News for the site'
     folder: '_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -17,28 +18,19 @@ collections:
       - {label: 'Publish Date', name: 'date', widget: 'datetime'}
       - {label: 'Tags', name: 'tags', widget: 'list'}
       - {label: 'Body', name: 'body', widget: 'text'}
-  - name: 'pages-en'
-    label: 'Pages (English)'
-    folder: '_en'
+  - name: 'pages'
+    label: 'Pages'
+    description: 'Pages for the site. The permalink is what the URL will be. The "body" accepts markdown (editor) or HTML'
+    folder: '_pages'
     create: true
     slug: '{{slug}}'
+    identity_field: 'name'
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: 'Language', name: 'language', widget: 'hidden', default: 'en'}
-      - {label: 'Title', name: 'title', widget: 'string'}
+      - {label: 'Title', name: 'name', widget: 'string'}
       - {label: 'Permalink', name: 'permalink', widget: 'string'}
       - {label: 'Body', name: 'body', widget: 'markdown'}
-  - name: 'pages-ru'
-    label: 'Pages (Russian)'
-    folder: '_ru'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
-      - {label: 'Language', name: 'language', widget: 'hidden', default: 'ru'}
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Permalink', name: 'permalink', widget: 'string'}
-      - {label: 'Body', name: 'body', widget: 'text'}
   - name: "settings"
     label: "Settings"
     files:

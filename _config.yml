@@ -40,8 +40,6 @@ sass:
 
 include:
   - _redirects
-  - _en
-  - _ru
 
 # Exclude these files from your production _site
 exclude:

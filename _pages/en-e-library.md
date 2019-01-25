@@ -17,7 +17,8 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <th>Title</th>
             <th>Lang</th>
             <th>Type</th>
-            <th>Date</th>
+            <th>Month</th>
+            <th>Year</th>
             <th>File</th>
         </tr>
     </thead>
@@ -26,7 +27,8 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <th>Title</th>
             <th>Lang</th>
             <th>Type</th>
-            <th>Date</th>
+            <th>Month</th>
+            <th>Year</th>
             <th>File</th>
         </tr>
     </tfoot>
@@ -36,7 +38,8 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <td>{{ item.title }}</td>
             <td>{{ item.language }}</td>
             <td>{{ item.types }}</td>
-            <td>{{ item.date | date: "%B %Y" }}</td>
+            <td>{{ item.date | date: "%m" }}</td>
+            <td>{{ item.date | date: "Y" }}</td>
             <td><a href="{{ item.file }}">DL</a></td>
         </tr>
         {% endfor %}

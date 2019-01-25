@@ -1,5 +1,5 @@
 ---
-layout: page_full
+layout: page_pad
 language: en
 image: /assets/files/industries.jpg
 title: Industries

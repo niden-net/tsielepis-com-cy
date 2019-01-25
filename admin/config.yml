@@ -74,10 +74,9 @@ collections:
                     value: "en"
                   - label: "Russian"
                     value: "ru"
-              - label: "Types"
-                name: "types"
+              - label: "Type"
+                name: "type"
                 widget: "select"
-                multiple: true
                 options:
                   - label: "Tax Updates"
                     value: "tax-update"

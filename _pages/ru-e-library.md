@@ -3,7 +3,7 @@ layout: page_full
 language: ru
 image: /assets/files/e-library.jpg
 title: E-Library
-permalink: /en/e-library
+permalink: /ru/e-library
 ---
 Э-Библиотека является нашим цифровым хранилищем промышленной и налоговой информации, ориентиров, информационных буклетов и многих других ресурсов, которые могут быть интересны Вам или Вашим клиентам.
 

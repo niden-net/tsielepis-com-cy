@@ -38,7 +38,10 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <td>{{ item.title }}</td>
             <td>{{ item.language | upcase }}</td>
             <td>
-                {{ item.types }}
+                {% if "sheet" == item.type %}InfoSheet
+                {% elsif "tax-update" == item.type %}Tax Update
+                {% elsif "tax-alert" == item.type %}Tax Alert
+                {% else %}Article{% endif %}
             </td>
             <td>{{ item.date | date: "%b" }}</td>
             <td>{{ item.date | date: "%Y" }}</td>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alexis Tsielepis appointed on the Board of THOC
-date: 2019-01-24T03:19:55.725Z
+date: 2019-01-23T03:19:55.725Z
 tags:
   - thoc
   - alexis

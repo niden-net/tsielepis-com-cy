@@ -3,76 +3,64 @@ media:
     file: /assets/files/tax-alert-81-cyprus-introduces-film-tax-scheme-en.pdf
     language: en
     title: Cyprus Introduces Firm Tax Scheme
-    types:
-      - tax-alert
+    type: tax-alert
   - date: 2018-04-01T17:04:12.360Z
     file: >-
       /assets/files/information-sheet-17-cyprus-signs-all-new-dtt-with-the-uk-en.pdf
     language: en
     title: Cyprus Signs All-New DTT with the UK
-    types:
-      - sheet
+    type: sheet
   - date: 2017-05-01T17:05:57.869Z
     file: >-
       /assets/files/information-sheet-16-cyprus-luxembourg-double-tax-treaty-en-1.pdf
     language: en
     title: Cyprus - Luxemburg Sign Double Tax Treaty
-    types:
-      - sheet
+    type: sheet
   - date: 2016-12-01T18:07:18.865Z
     file: /assets/files/information-sheet-15-cyprus-india-double-tax-treaty-en.pdf
     language: en
     title: Cyprus - India Revise Their Double Tax Treaty
-    types:
-      - sheet
+    type: sheet
   - date: 2016-01-01T18:08:23.687Z
     file: /assets/files/information-sheet-14-cyprus-double-tax-treaties-en-3.pdf
     language: en
     title: Cyprus Double Tax Treaties
-    types:
-      - sheet
+    type: sheet
   - date: 2016-01-01T18:09:25.726Z
     file: >-
       /assets/files/information-sheet-13-living-in-cyprus.-a-scrumptaxious-proposition-ru-1.pdf
     language: ru
     title: 'ЖИЗНЬ НА КИПРЕ: НАЛОГОВОЕ ПРЕДЛОЖЕНИЕ, ОТ КОТОРОГО СЛОЖНО ОТКАЗАТЬСЯ'
-    types:
-      - sheet
+    type: sheet
   - date: 2016-01-01T18:11:12.571Z
     file: >-
       /assets/files/information-sheet-13-living-in-cyprus.-a-scrumptaxious-proposition-en-1.pdf
     language: en
     title: 'LIVING IN CYPRUS: A ScrumpTAXious PROPOSITION'
-    types:
-      - sheet
+    type: sheet
   - date: 2018-01-01T18:13:04.482Z
     file: /assets/files/tax-update-v.8-i.2-cyprus-tax-facts-2018-en.pdf
     language: en
     title: CYPRUS TAX FACTS 2018
-    types:
-      - tax-update
+    type: tax-update
   - date: 2018-01-01T18:13:07.155Z
     file: /assets/files/tax-update-v.8-i.1-tax-calendar-2018-ru.pdf
     language: ru
     title: НАЛОГОВЫЙ КАЛЕНДАРЬ 2018
-    types:
-      - tax-update
+    type: tax-update
   - date: 2018-01-01T18:13:07.664Z
     file: /assets/files/tax-update-v.8-i.1-tax-calendar-2018-en.pdf
     language: en
     title: TAX CALENDAR 2018
-    types:
-      - tax-update
+    type: tax-update
   - date: 2019-04-01T17:13:08.221Z
     file: >-
       /assets/files/tax-update-v.7-i.3-cyprus-company-obligations-–-are-you-compliant-en.pdf
     language: en
     title: CYPRUS COMPANY OBLIGATIONS - ARE YOU COMPLIANT?
-    types:
-      - tax-update
+    type: tax-update
   - date: 2017-01-01T05:00:00.000Z
     file: /assets/files/tax-update-v.7-i.2-cyprus-tax-facts-2017-en.pdf
     language: en
     title: CYPRUS TAX FACTS 2017
-    types:
-      - tax-update
+    type: tax-update

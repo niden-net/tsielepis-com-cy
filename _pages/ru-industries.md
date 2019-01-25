@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: page_full
 language: ru
+image: /assets/files/industries.jpg
+title: Industries
 permalink: /ru/industries
 ---
 В эпоху постоянных, бурных изменений и непрерывных достижений в знаниях и технологиях, проведение тщательного и практического исследования конкретной отрасли имеет важное значение для любого успешного взаимодействия.

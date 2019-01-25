@@ -1,11 +1,16 @@
 ---
-layout: page
+layout: page_pad
 language: en
+image: /assets/files/careers.jpg
+title: Careers
 permalink: /en/careers
 ---
-<p>We are always on the lookout for talented professionals to join our team. We strive to invest in human capital and we strongly believe that our people are our greatest asset.</p>
-<p>If you are motivated enough to succeed in professional services, let us know about it.</p>
-<p>We seek diversity, encourage initiative and promote professional development.</p>
+We are always on the lookout for talented professionals to join our team. We strive to invest in human capital and we strongly believe that our people are our greatest asset.
+
+If you are motivated enough to succeed in professional services, let us know about it.
+
+We seek diversity, encourage initiative and promote professional development.
+
 <div class="divider"></div>
 <p><strong>There are four main disciplines of professionals, one of which may fit your qualifications and aspirations:</strong></p>
 <div class="clearfix cols3 noClear careerCols">

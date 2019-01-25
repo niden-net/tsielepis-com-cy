@@ -1,65 +1,29 @@
         <div id="navigation" class="clearfix">
             <a href="javascript:void(0)" id="toggle-menu">Navigation</a>
             <ul id="menu-main-menu" class="menu clearfix">
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-35">
-                    <a href="/{{ page.version }}">
-                        Home
+                {% for menu in site.data.menu.menu-items %}
+                {% if page.language == menu.language %}
+                {% assign langUrl = menu.permalink | prepend: menu.language | prepend: '/' %}
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home{% if page.url == langUrl %} current-menu-item current_page_item current_page_parent{% endif %}">
+                    <a href="/{{ page.language }}{{ menu.permalink }}">
+                        {{ menu.title }}
                     </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-36">
-                    <a href="/{{ page.version }}/about-us/">
-                        About Us
-                    </a>
+                    {% if menu.sub-menu-items %}
                     <ul class="sub-menu">
-                        <li id="menu-item-37"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
-                            <a href="/{{ page.version }}/about-us/our-company">
-                                Our Company
+                        {% for subMenu in menu.sub-menu-items %}
+                        {% if page.language == subMenu.language %}
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="/{{ page.language }}{{ subMenu.permalink }}">
+                                {{ subMenu.title }}
                             </a>
                         </li>
-                        <li id="menu-item-38"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38">
-                            <a href="/{{ page.version }}/about-us/our-people">
-                                Our People
-                            </a>
-                        </li>
-                        <li id="menu-item-39"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39">
-                            <a href="/{{ page.version }}/about-us/one-team">
-                                One Team
-                            </a>
-                        </li>
+                        {% endif %}
+                        {% endfor %}
                     </ul>
+                    {% endif %}
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44">
-                    <a href="/{{ page.version }}/services">
-                        Services
-                    </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43">
-                    <a href="/{{ page.version }}/industries">
-                        Industries
-                    </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
-                    <a href="/{{ page.version }}/news/">
-                        News
-                    </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1343">
-                    <a href="/{{ page.version }}/e-library">
-                        E-library
-                    </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
-                    <a href="/{{ page.version }}/careers">
-                        Careers
-                    </a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
-                    <a href="/{{ page.version }}/contact-us">
-                        Contact Us
-                    </a>
-                </li>
+                {% endif %}
+                {% endfor %}
             </ul>
         </div>
+

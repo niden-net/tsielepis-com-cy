@@ -11,7 +11,7 @@ The proprietary information contained in the repository has been internally rese
 
 The E-Library is constantly updated and enriched, therefore we urge you to come back often for new information.
 
-<table id="e-library" class="display" style="width:100%">
+<table id="e-library" class="display dataTable" style="width:100%" role="grid">
     <thead>
         <tr>
             <th>Title</th>
@@ -21,6 +21,15 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <th>File</th>
         </tr>
     </thead>
+    <tfoot>
+        <tr>
+            <th>Title</th>
+            <th>Lang</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>File</th>
+        </tr>
+    </tfoot>
     <tbody>
         {% for item in site.data.library.media %}
         <tr>
@@ -28,7 +37,7 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             <td>{{ item.language }}</td>
             <td>{{ item.types }}</td>
             <td>{{ item.date | date: "%B %Y" }}</td>
-            <td><a href="{{ item.file }}">Download</a></td>
+            <td><a href="{{ item.file }}">DL</a></td>
         </tr>
         {% endfor %}
     </tbody>

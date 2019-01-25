@@ -1,35 +1,69 @@
 menu-items:
   - language: en
     permalink: /
-    title: Home
+    title: HOME
   - language: en
     permalink: /about-us/our-company
     sub-menu-items:
       - language: en
         permalink: /about-us/our-company
-        title: Our Company
+        title: OUR COMPANY
       - language: en
         permalink: /about-us/our-people
-        title: Our People
+        title: OUR PEOPLE
       - language: en
         permalink: /about-us/one-team
-        title: One Team
-    title: About Us
+        title: ONE TEAM
+    title: ABOUT US
   - language: en
     permalink: /services
-    title: Services
+    title: SERVICES
   - language: en
     permalink: /industries
-    title: Industries
+    title: INDUSTRIES
   - language: en
     permalink: /news
-    title: News
+    title: NEWS
   - language: en
     permalink: /e-library
-    title: E-Library
+    title: E-LIBRARY
   - language: en
     permalink: /careers
-    title: Careers
+    title: CAREERS
   - language: en
     permalink: /contact-us
-    title: Contact Us
+    title: CONTACT US
+  - language: ru
+    permalink: /
+    title: ГЛАВНАЯ
+  - language: ru
+    permalink: /about-us/our-company
+    sub-menu-items:
+      - language: ru
+        permalink: /about-us/our-company
+        title: НАША КОМПАНИЯ
+      - language: ru
+        permalink: /about-us/our-people
+        title: НАШ ПЕРСОНАЛ
+      - language: ru
+        permalink: /about-us/one-team
+        title: ОДНА КОМАНДА
+    title: О НАС
+  - language: ru
+    permalink: /services
+    title: НАШИ УСЛУГИ
+  - language: ru
+    permalink: /industries
+    title: ОТРАСЛИ
+  - language: ru
+    permalink: /news
+    title: НОВОСТИ
+  - language: ru
+    permalink: /e-library
+    title: E-LIBRARY
+  - language: ru
+    permalink: /careers
+    title: КАРЬЕРА
+  - language: ru
+    permalink: /contact-us
+    title: СВЯЖИТЕСЬ С НАМИ

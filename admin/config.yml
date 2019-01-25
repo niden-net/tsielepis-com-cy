@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: master
+  site_domain: https://tsielepis-com-cy.netlify.com
+  identity_url: https://tsielepis-com-cy.netlify.com/.netlify/identity
 
 publish_mode: 'editorial_workflow'
 media_folder: '/assets/files'

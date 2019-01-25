@@ -1,6 +1,6 @@
 ---
 layout: page_full
-language: en
+language: ru
 image: /assets/files/e-library.jpg
 title: E-Library
 permalink: /ru/e-library

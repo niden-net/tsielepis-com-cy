@@ -2,7 +2,7 @@
 layout: page_blog
 language: en
 image: /assets/files/news.jpg
-title: Careers
+title: News
 permalink: /en/news
 ---
 <div class="blogpostItem clearfix post type-post status-publish format-standard has-post-thumbnail hentry">

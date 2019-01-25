@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
-
-                        <li class="media list-group-item p-a">
-                            <div class="media-body">
-                                <div class="media-heading">
-                                    <h3>
-                                        <a href="{{ page.url }}">
-                                            {{ page.title }}
-                                        </a>
-                                    </h3>
-                                    <small class="pull-right text-muted">
-                                        {{ page.date | date: "%Y-%m-%d" }}
-                                    </small>
-                                </div>
-                                <p>
-                                    {{ page.content }}
-                                </p>
-                            </div>
-                            <div class="media-body-actions">
-                                {% for tag in page.tags %}
-                                <button class="btn btn-primary-outline btn-sm">
-                                    {{ tag }}
-                                </button>
-                                {% endfor %}
-                            </div>
-                        </li>
+<div class="pageHeader">
+    <img src="/assets/files/news.jpg" alt="{{ page.title }}" />
+    <h2 class="pageTitle">
+        NEWS
+    </h2>
+</div>
+<div id="container" class="fullWidth">
+    <div class="clearfix">
+        <div class="blogItemDate">
+            <strong>{{ page.date | date: "%A" }}</strong>
+            <br />
+            {{ page.date | date: "%B %d, %Y" }}
+        </div>
+        <div class="blogItemBx clearfix">
+            <h2 class="postTitle">{{ page.title }}</h2>
+            <div class="singleBlogThumb">
+                <img width="700" height="505"
+                     src="{{ page.photo }}"
+                     class="attachment-full size-full wp-post-image"/>
+            </div>
+            <div class="entry">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

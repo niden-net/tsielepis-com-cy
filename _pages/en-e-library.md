@@ -36,10 +36,12 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
         {% for item in site.data.library.media %}
         <tr>
             <td>{{ item.title }}</td>
-            <td>{{ item.language }}</td>
-            <td>{{ item.types }}</td>
-            <td>{{ item.date | date: "%m" }}</td>
-            <td>{{ item.date | date: "Y" }}</td>
+            <td>{{ item.language | upcase }}</td>
+            <td>
+                {{ item.types }}
+            </td>
+            <td>{{ item.date | date: "%b" }}</td>
+            <td>{{ item.date | date: "%Y" }}</td>
             <td><a href="{{ item.file }}">DL</a></td>
         </tr>
         {% endfor %}

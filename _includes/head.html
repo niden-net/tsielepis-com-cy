@@ -98,6 +98,9 @@
                 // DataTable
                 $('#e-library').DataTable(
                     {
+                        "columnDefs": [
+                            {"className": "dt-center", "targets": [1, 2, 3, 4, 5]}
+                        ],
                         initComplete: function () {
                             this.api().columns([0, 1, 2, 3, 4]).every(
                                 function () {

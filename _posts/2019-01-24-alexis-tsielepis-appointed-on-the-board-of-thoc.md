@@ -13,9 +13,9 @@ The Managing Director of Chelco VAT Ltd was appointed on the Board earlier this 
 
 Tsielepis was selected for his professional background and love for the arts.
 
-“When the President calls you in person and honours you with a seat on the Board of the island’s most important cultural vehicle, you can’t say no, and I didn’t want to!” Tsielepis said, adding:
+"When the President calls you in person and honours you with a seat on the Board of the island’s most important cultural vehicle, you can’t say no, and I didn’t want to!" Tsielepis said, adding:
 
-“Outside of my work, I have always been passionate about music, arts and the theater. Although I have an almost romanticised perception of working with the people of THOC, I am under no delusion that my professional skills will be put to good use in reviewing the current operations and determining the future path of this organization, to make a real difference in THOC and help it grow and prosper.”
+> "Outside of my work, I have always been passionate about music, arts and the theater. Although I have an almost romanticised perception of working with the people of THOC, I am under no delusion that my professional skills will be put to good use in reviewing the current operations and determining the future path of this organization, to make a real difference in THOC and help it grow and prosper."
 
 Tsielepis is widely considered as the foremost expert on VAT in Cyprus. He is a Fellow of the Institute of Chartered Accountants in England and Wales (ICAEW) and a member of the Institute of Certified Public Accountants of Cyprus (ICPAC). He also holds the Expert in European Value Added Tax (VAT) Degree, which he earned with the highest grade ever awarded in the history of the coveted diploma.
 

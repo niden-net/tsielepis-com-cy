@@ -5,9 +5,9 @@ image: /assets/files/news.jpg
 title: News
 permalink: /en/news
 ---
+{% for post in site.posts %}
+{% if forloop.index < 3 %}
 <div class="blogpostItem clearfix post type-post status-publish format-standard has-post-thumbnail hentry">
-    {% for post in site.posts %}
-    {% if forloop.index < 3 %}
     <div class="blogItemDate">
         <div class="blogItemDateIn">
             <strong>{{ post.date | date: "%A" }}</strong>
@@ -35,9 +35,9 @@ permalink: /en/news
             <a class="readMoreLink" href="{{ post.url }}">Click here to read more.</a>
         </div>
     </div>
-    {% endif %}
-    {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
 
 <div class="divider2"></div>
 <h3 class="title padLeft noBar">

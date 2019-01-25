@@ -42,7 +42,11 @@ The E-Library is constantly updated and enriched, therefore we urge you to come 
             </td>
             <td>{{ item.date | date: "%b" }}</td>
             <td>{{ item.date | date: "%Y" }}</td>
-            <td><a href="{{ item.file }}">DL</a></td>
+            <td>
+                <a href="{{ item.file }}" target="_blank">
+                    <img src="/assets/images/download.png">
+                </a>
+            </td>
         </tr>
         {% endfor %}
     </tbody>

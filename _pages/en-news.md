@@ -43,9 +43,9 @@ permalink: /en/news
 <h3 class="title padLeft noBar">
     News Archive
 </h3>
+{% for post in site.posts %}
+{% if forloop.index > 2 %}
 <div class="blogpostItem clearfix post type-post status-publish format-standard has-post-thumbnail hentry">
-    {% for post in site.posts %}
-    {% if forloop.index > 2 %}
     <div class="blogItemDate">
         <div class="blogItemDateIn">
             <strong>{{ post.date | date: "%A" }}</strong>
@@ -60,12 +60,12 @@ permalink: /en/news
             </a>
         </h3>
         <div class="postContent">
-            {{ post.excerpt }} 
+            {{ post.excerpt }}... 
             <a class="readMoreLink" href="{{ post.url }}">
                 Click here to read more.
             </a>
         </div>
     </div>
-    {% endif %}
-    {% endfor %}
 </div>
+{% endif %}
+{% endfor %}
